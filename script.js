@@ -31,9 +31,9 @@ function WriteResult(info){
         year 
     } = info;
 
-    const results = `If you deposit ${principal} <br>
-                    at an interest rate of ${rate}%. <br>
-                    You will receive an amount of ${interest},
-                    in the year ${year}`;
+    const results = `If you deposit <mark>${principal}</mark> <br>
+                    at an interest rate of <mark>${rate}%</mark>. <br>
+                    You will receive an amount of <mark>${interest}</mark>,
+                    in the year <mark>${year}</mark>`;
     document.getElementById("result").innerHTML = results;
 }
